@@ -1,0 +1,36 @@
+{% assign sidebar = site.data.data.sidebar %}
+<div class="sidebar-wrapper">
+
+  <div class="profile-container">
+
+    {% if sidebar.name %}
+    <img class="avatar" src="{{ site.baseurl }}/assets/images/{{ sidebar.avatar }}" alt="profile picture" />
+    {% endif %}
+
+    {% if sidebar.name %}
+    <h1 class="name">{{ sidebar.name }}</h1>
+    {% endif %}
+
+    {% if sidebar.tagline %}
+    <h3 class="tagline">{{ sidebar.tagline }}</h3>
+    {% endif %}
+    <!-- <div style=""></div> -->
+    <a href="https://www.irit.fr/"><img style="margin-top: 10px; margin-bottom: -10px; margin-right:5px; height:100px" src="{{ site.baseurl }}/assets/images/irit.png" alt="IRIT" /></a>
+    <a href="https://www.meteoswift.fr/en/"><img style="margin-top: 10px; margin-bottom: -10px; margin-left:5px; height:100px" src="{{ site.baseurl }}/assets/images/ms.png" alt="meteo*swift" /></a>
+
+  </div><!--//profile-container-->
+
+  {% include contact.html %}
+
+  {% if sidebar.education %}
+    {% include education.html %}
+  {% endif %}
+
+  {% include language.html %}
+  {% include interests.html %}
+
+  {% if sidebar.about %}
+    {% include about.html %}
+  {% endif %}
+
+</div><!--//sidebar-wrapper-->

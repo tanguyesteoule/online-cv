@@ -1,0 +1,203 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+sidebar:
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: False # set to False if you want education in main section instead of in sidebar
+
+    # Profile information
+    name: Tanguy Esteoule
+    tagline: Data Scientist
+    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+    # Sidebar links
+    email: tanguy.esteoule@gmail.com
+    phone: 
+    website: esteoule.fr #do not add http://
+    linkedin: tanguy-esteoule
+    github: tanguyesteoule
+    gitlab:
+    bitbucket:
+    twitter: 
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    codewars:
+    goodreads: # Number-Username, e.g. 123456-alandoe
+
+    languages:
+      - idiom: French
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+      - idiom: Spanish
+        level: Professional
+
+      - idiom: Vietnamese
+        level: Beginner
+
+    interests:
+      - item: Guitar
+        link:
+
+      - item: Trumpet
+        link:
+
+      - item: Trail running
+        link:
+
+career-profile:
+    title: About me
+    summary: |
+      My name is Tanguy Esteoule, I currently work as a Data Scientist in the company [meteo*swift](https://www.meteoswift.fr/en/), specialized in artificial intelligence in the field of energy transition.
+      My work focuses specifically on wind power forecasting. In particular, I study the consideration of interdependencies and interactions between wind turbines for forecasting.
+
+      I did my Ph.D., _Adaptive Multi-Agent Systems for Wind Power Forecasting_, in the [SMAC team](https://www.irit.fr/smac/) at IRIT, computer science laboratory in Toulouse, France.
+
+      I am naturally curious and I have always been passionate about music.
+
+education:
+    - degree: Ph.D. in Artificial intelligence
+      color: '#f84b0f'
+      university: University of Toulouse
+      time: 2016 - 2019
+      details: |
+        Thesis: Adaptive Multi-Agent Systems for Wind Power Forecasting
+
+          - Training a wind power forecasting model from erroneous numerical weather predictions
+          - Design and development of an Adaptive Multi-Agent System (AMAS) in charge of wind power forecasting
+          - Detection and consideration of wake effect constraints between wind turbines
+          - Works on weather ensemble forecasting in partnership with the French Weather Research Centre (CNRM)
+
+        Jury:
+
+          - Pierre PINSON, Professor, Technical University of Denmark (Reviewer)
+          - Yves DEMAZEAU, Director of Research, Université Grenoble Alpes (Reviewer)
+          - Gauthier PICARD, Professor, Mines de Saint-Etienne (Examiner)
+
+    - degree: MSc in Computer Science
+      color: '#008437'
+      university: Ensimag, Grenoble
+      time: 2013 - 2016
+      details: |
+        Specialization in Embedded Systems
+
+    - degree: Graduate Exchange
+      color: '#00427a'
+      university: Pontifical Catholic University of Peru
+      time: 2015
+      details: |
+        Exchange semester in a Peruvian university
+
+        - Data science and programming course
+
+experiences:
+    - role: Data Scientist
+      color: '#3c69f0'
+      time: 2016 - Present
+      company: meteo*swift, Grenoble
+      details: |
+        Initially Ph.D. thesis in industrial relations (CIFRE Agreements) then full-time job since 2020
+
+          - Design and development of new wind power forecasting models
+          - R&D on new products related to the company's field of activity
+          - Integration of the research work carried out during the thesis into the wind farms managed by the company
+          - Development of internal tools
+          - Writing internal scientific reports
+
+    - role: Computer Science Teacher
+      color: '#e31b19'
+      time: 2017 - 2019
+      company: University of Toulouse
+      details: |
+        Python practical work: Introduction to the basic structures of algorithmic, implemented in Python (28h)
+
+    - role: Data Scientist Intern
+      color: '#00205d'
+      time: 2016
+      company: Airbus, Toulouse
+      details: |
+        Data-Mining technics for analysis of Aircraft logs from On-board In
+
+          - Analysis of aircraft logs produced by the FSA-NG, an embedded system for flight, maintenance and ground operations
+          - Search for correlations between events that occurred during the flight by Association Rule learning
+          - Development of a pattern detection tool, implemented in Java
+
+projects:
+    title: Projects
+    intro: 
+
+    assignments:
+      - title: Movizz
+        link: "https://movizz.fr/"
+        tagline: "Online multiplayer game based on film dialogues (Django)"
+
+      - title: This album cover does not exist
+        link: "https://tanguyesteoule.github.io/thisalbumdoesnotexist/"
+        tagline: "Generating realistic album covers with artificial intelligence (with Generative Adversarial Networks)"
+
+      - title: Kajika
+        link: "https://github.com/Azouu/Kajika"
+        tagline: "Web-based multi-agent system visualization application (Developed by Inès Louahadj under my supervision)"
+
+
+
+
+publications:
+    title: Publications
+    intro: 
+
+    papers:
+      - title: "Adaptive Multi-Agent Systems for Wind Power Forecasting"
+        link: "https://tel.archives-ouvertes.fr/tel-02930244/document"
+        authors: Tanguy Esteoule
+        conference: "Ph.D. thesis, Université Paul Sabatier (2019)"
+
+      - title: "Improving Wind Power Forecasting through Cooperation: A Case-Study on Operating Farms"
+        link: "http://www.ifaamas.org/Proceedings/aamas2019/pdfs/p1940.pdf"
+        authors: Tanguy Esteoule, Carole Bernon, Marie-Pierre Gleizes and Morgane Barthod
+        conference: "International Conference on Autonomous Agents and MultiAgent Systems (AAMAS) (2019)"
+
+      - title: "A Cooperative Multi-Agent System for Wind Power Forecasting"
+        link: "https://hal.archives-ouvertes.fr/hal-02279380/document"
+        authors: Tanguy Esteoule, Alexandre Perles, Carole Bernon, Marie-Pierre Gleize and Morgane Barthod 
+        conference: "International Conference on Practical Applications of Agents and Multi-Agent Systems (pp. 152-163). Springer, Cham. (2018)"
+
+
+
+
+skills:
+    title: Skills &amp; Proficiency
+
+    toolset:
+      - name: Python
+        level: 90%
+
+      - name: LaTeX
+        level: 85%
+
+      - name: Java / C#
+        level: 85%
+
+      - name: HTML5 / CSS3 / JS
+        level: 80%
+
+      - name: C / C++
+        level: 75%
+
+      - name: Photoshop
+        level: 60%
+
+frameworks:
+    toolset:
+      - name: Data science
+        list: Scikit-learn / Keras / TensorFlow
+      - name: Web
+        list: Vue.js / React.js / node.js / Dango
+      - name: Database
+        list: MySQL / MongoDB
+    
+
+footer: >
+    
