@@ -133,6 +133,10 @@ projects:
         link: "https://movizz.fr/"
         tagline: "Online multiplayer game based on film dialogues (Django)"
 
+      - title: Wikipedia Meter
+        link: "https://twitter.com/wikimeter"
+        tagline: "A twitter bot that publishes every day a word cloud of the most read articles on Wikipedia France"
+
       - title: This album cover does not exist
         link: "https://tanguyesteoule.github.io/thisalbumdoesnotexist/"
         tagline: "Generating realistic album covers with artificial intelligence (with Generative Adversarial Networks)"
